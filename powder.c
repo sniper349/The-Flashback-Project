@@ -1602,7 +1602,7 @@ void sdl_open(void)
         fprintf(stderr, "Creating window: %s\n", SDL_GetError());
         exit(1);
     }
-    SDL_WM_SetCaption("The Powder Toy", "Powder Toy");
+    SDL_WM_SetCaption("The Powder Toy - Flashback", "Powder Toy");
     sdl_seticon();
     SDL_EnableUNICODE(1);
 }
